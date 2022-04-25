@@ -507,6 +507,17 @@ footer {
 
 
 }
+
+.subscribe-input::placeholder{
+    padding-left: 16px;
+
+    line-height: 1.25;    
+    
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
 .subscribe p{
     margin-bottom: 20px;
 
