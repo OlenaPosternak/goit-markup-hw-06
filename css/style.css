@@ -939,6 +939,8 @@ align-items: center;
 }
 
 .form-input {
+    margin-bottom: 10px;
+
     width: 448px;
     height: 40px;
     
@@ -948,6 +950,9 @@ align-items: center;
 
 .form-field .icon {
     position: absolute;
-    left: 15px;
-    bottom: 14px;
+
+    display: inline-flex;
+    left: 12px;
+    bottom: 22px;
+
 }
