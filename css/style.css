@@ -978,3 +978,23 @@ align-items: center;
     color: rgba(117, 117, 117, 0.5);
 
 }
+
+.checkbox {
+    display: flex;
+    align-items: baseline;
+    width: 425px;
+}
+
+.checkbox .text{
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: var(--main-color);
+}
+
+.checkbox .policy {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
