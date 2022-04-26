@@ -566,7 +566,7 @@ border: none;
     display: flex;
 
 }
-.form-subscribe .icon-send{
+.subscribe-button .icon{
     fill: currentColor;
     margin-left: 10px;
 }
