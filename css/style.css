@@ -517,6 +517,12 @@ footer {
 
 .subscribe-input:focus-within{
     outline: none;
+    border-color: var(--accent-color);
+}
+
+.subscribe-input:not(:placeholder-shown){
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -552,7 +558,11 @@ border-radius: 4px;
 border: none;
 }
 
-.subscribe .icon{
+.form-subscribe {
+    display: flex;
+
+}
+.form-subscribe .icon-send{
     fill: currentColor;
     margin-left: 10px;
 }
