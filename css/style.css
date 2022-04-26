@@ -599,7 +599,8 @@ border: none;
   color: #ffffff;
 }
 
-.hero .button {
+.hero .button,
+.form .button {
   min-width: 200px;
   min-height: 50px;
   padding: 10px 32px;
@@ -622,7 +623,9 @@ border: none;
 }
 
 .hero button:hover,
-.hero button:focus {
+.hero button:focus,
+.form .button:hover,
+.form .button:focus  {
   background-color: #188ce8;
 }
 
@@ -982,6 +985,9 @@ align-items: center;
 .checkbox {
     display: flex;
     align-items: baseline;
+
+    margin: 0 auto;
+
     width: 425px;
 }
 
@@ -998,3 +1004,9 @@ align-items: center;
     text-decoration: underline;
     color: var(--accent-color);
 }
+
+.form .button{
+    display: block;
+    margin: 30px auto;
+}
+
