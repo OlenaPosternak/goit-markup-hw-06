@@ -1051,6 +1051,7 @@ fill: var(--accent-color);
 .checkbox-label > .text{
     margin-left: 8px;
     margin-bottom: 0;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     
